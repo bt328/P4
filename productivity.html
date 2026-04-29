@@ -1,0 +1,138 @@
+<!-- DEVELOPER: Brandon Tirado, IS117-002, Spring 2026 -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Productivity | Healthy Habits</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container-fluid">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">Healthy Habits</a>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto"> <!-- ms-auto pushes items right -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="sleeping.html">Sleeping</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="productivity.html" id="navbardrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Productivity
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="productivity.html">Productivity</a></li>
+                            <li><a class="dropdown-item" href="todo.html">To-Do List</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2>Productivity</h2>
+            </div>
+
+            <!-- Section 1 -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-12 col-lg-10 p-4 shadow-sm rounded-4 bg-light">
+                    <div class="row align-items-center flex-md-row-reverse">
+
+                        <div class="col-12 col-md-5 text-center mb-3 mb-md-0">
+                            <img src="/Images/Productivity.avif" class="img-fluid" alt="Person being productive">
+                        </div>
+
+                        <div class="col-12 col-md-7">
+                            <p class="mb-0">
+                                Productivity is not about constantly staying busy, but about using time effectively and intentionally. When individuals prioritize tasks and focus on meaningful goals, they are able to accomplish more with less stress. Techniques such as breaking large tasks into smaller steps, setting realistic deadlines, and minimizing distractions can significantly improve efficiency. Creating a structured routine also helps build momentum and maintain consistency over time.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2 (clean flip version) -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-12 col-lg-10 p-4 shadow-sm rounded-4 bg-light">
+                    <div class="row align-items-center">
+
+                        <div class="col-12 col-md-5 text-center mb-3 mb-md-0">
+                            <img src="/Images/ToDoList.jpg" class="img-fluid" alt="Image of a to-do list">
+                        </div>
+
+                        <div class="col-12 col-md-7">
+                            <p class="mb-0">
+                                Maintaining productivity also requires balance. Taking regular breaks, getting enough sleep, and managing stress are all crucial for sustained focus and performance. Overworking can lead to burnout, which ultimately decreases productivity rather than improving it. By combining organization with self-care, individuals can develop habits that support both their goals and their overall well-being.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mb-5">
+                <p>Make a to-do list to manage your responsibilities and stay productive:</p>
+            </div>
+
+            <div class="text-center">
+
+                <a href="todo.html" class="btn btn-primary">
+                    Go to To-Do List
+                </a>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="custom-footer">
+        <div class="container">
+            <span>
+                Brandon Tirado 4/26/2026 &copy; |
+                <a href="#">Terms of Service</a> |
+                <a href="#">Privacy Statement</a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
